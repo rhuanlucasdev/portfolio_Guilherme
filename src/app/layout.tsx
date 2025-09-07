@@ -31,6 +31,7 @@ export default function RootLayout({
         <Navbar />
         <Hero />
         <About />
+        {children}
       </body>
     </html>
   );
